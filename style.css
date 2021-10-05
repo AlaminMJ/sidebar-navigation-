@@ -90,6 +90,7 @@ a {
 }
 .nav-icon {
   font-size: 1.25rem;
+  background-color: transparent;
 }
 .expander {
   width: calc(var(--nav-width) + 9.25rem);
@@ -104,6 +105,7 @@ a {
 .collapse-link {
   justify-self: flex-end;
   transition: 0.5s;
+  background-color: transparent;
 }
 
 .collapse-menu {

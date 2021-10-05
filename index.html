@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="body-pd">
+    <div class="l-navbar" id="navbar">
+      <nav class="nav">
+        <div>
+          <div class="nav-brand">
+            <ion-icon
+              name="menu-outline"
+              class="nav-toggle"
+              id="nav-toggle"
+            ></ion-icon>
+            <a href="#" class="logo">Logo</a>
+          </div>
+          <div class="nav-list">
+            <a href="#" class="nav-link active">
+              <ion-icon name="home-outline" class="nav-icon"></ion-icon>
+              <span class="nav-name">Home</span>
+            </a>
+            <a href="#" class="nav-link">
+              <ion-icon name="chatbubbles-outline" class="nav-icon"></ion-icon>
+              <span class="nav-name">Massage</span>
+            </a>
+            <div href="#" class="nav-link collapse">
+              <ion-icon name="folder-outline" class="nav-icon"></ion-icon>
+              <span class="nav-name">File</span>
+              <ion-icon
+                name="chevron-down-outline"
+                class="collapse-link"
+              ></ion-icon>
+              <div class="collapse-menu">
+                <a href="#" class="collapse-sub-link">Data</a>
+                <a href="#" class="collapse-sub-link">Analyse</a>
+                <a href="#" class="collapse-sub-link">subdkf</a>
+              </div>
+            </div>
+            <a href="#" class="nav-link">
+              <ion-icon name="pie-chart-outline" class="nav-icon"></ion-icon>
+              <span class="nav-name">Charts</span>
+            </a>
+            <div href="#" class="nav-link collapse">
+              <ion-icon name="person-outline" class="nav-icon"></ion-icon>
+              <span class="nav-name">User</span>
+              <ion-icon
+                name="chevron-down-outline"
+                class="collapse-link"
+              ></ion-icon>
+              <div class="collapse-menu">
+                <a href="#" class="collapse-sub-link">Data</a>
+                <a href="#" class="collapse-sub-link">Analyse</a>
+                <a href="#" class="collapse-sub-link">subdkf</a>
+              </div>
+            </div>
+
+            <a href="#" class="nav-link">
+              <ion-icon name="settings-outline" class="nav-icon"></ion-icon>
+              <span class="nav-name">Setting</span>
+            </a>
+          </div>
+        </div>
+        <a href="#" class="nav-link">
+          <ion-icon name="log-out-outline" class="nav-icon"></ion-icon>
+          <span class="nav-name">Log out</span>
+        </a>
+      </nav>
+    </div>
+    <h1>components</h1>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
